@@ -5,7 +5,7 @@ const testVar = [
   {year: "2016", result: "N/A"}
 ]
 
-function testFunc(data) {
+function superbowlWin(data) {
   let winner = data.find( obj => obj.result === "W" )
   if (winner) {
     return winner.year
